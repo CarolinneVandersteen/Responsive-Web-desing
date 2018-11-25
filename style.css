@@ -1,0 +1,34 @@
+body{
+  font-size: 2vw;
+
+
+}
+
+
+@media only screen and (max-width: 300px) {
+  body {
+    background-color: red;
+  }
+
+}
+@media only screen and (min-width: 300px) and (max-width:768px) {
+  body {
+    background-color: green;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  #large{
+
+    grid-column-end: span 2;
+  }
+
+
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: lightblue;
+    display: flex;
+  }
+
+
+}
